@@ -9,6 +9,8 @@ int16_t main(void) {
     init_ui();
     init_timer();
 
+    // hi
+
     led_on(&led1);
     timer_setPeriod(&timer2, 0.5);
     timer_start(&timer2);
@@ -22,4 +24,3 @@ int16_t main(void) {
         led_write(&led3, !sw_read(&sw3));
     }
 }
-
